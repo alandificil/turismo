@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -54,8 +54,18 @@ function App() {
         </section>
 
       </nav>
+    
+      <footer className="container-fluid d-flex pt-3 justify-content-around footer bg-dark text-light text-center">
+        
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fas fa-envelope-square"></i>
+        
+      </footer>
+    
     </div>
   );
 }
+
 
 export default App;
